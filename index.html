@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Berry Junior School</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .nav-items {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .logo {
+            font-weight: bolder;
+            font-size: 25px;
+            color: #2872a1
+        }
+
+        .nav-items ul li {
+            list-style-type: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .nav-items li a {
+            text-decoration: none;
+            margin-right: 10px;
+            color: #2872a1
+        }
+
+        .nav-items a:hover {
+            color: #cbdde9
+        }
+
+        .hero {
+            background-image: url(images/heather-green-hKfKmfvPY44-unsplash.jpg);
+            height: 20rem;
+            width: auto;
+
+        }
+
+        .hero h1 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 50px;
+            padding-top: 5rem;
+            color: #2872a1;
+
+        }
+
+        .hero p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            padding: top 5rem;
+            color:#2872a1;
+        }
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+
+
+        }
+
+        .box1 {
+            background-color: #cbdde9;
+            flex: 1;
+            border: 2px solid black;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 5px;
+
+        }
+
+        .box1 h3 {
+            color: #2872a1;
+
+
+
+        }
+
+        .box1 p {
+            color: #2872a1;
+        }
+
+        .box2 {
+            background-color: #2872a1;
+            flex: 1;
+            border: 2px solid black;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 5px;
+
+        }
+
+        .box2 h3 {
+            color: #cbdde9;
+        }
+
+        .box2 p {
+            color: #cbdde9;
+        }
+
+        .box3 {
+            background-color: rgb(158, 179, 210);
+            flex: 1;
+            border: 2px solid black;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 5px;
+
+        }
+
+
+        .box3 p {
+            color: white;
+        }
+
+        .class-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+        .academics {
+            width: 250px;
+            padding: 25px;
+            border: 2px solid black;
+            border-radius: 8px;
+            margin: 10px;
+            text-align: center;
+            background-color: #b7daf0;
+            color: #2872a1;
+        }
+
+        .contacts {
+            display: flex;
+            flex-flow: row wrap;
+            color: black;
+            margin-top: 30px;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            background-color: #b7daf0;
+
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: auto auto;
+            height: fit-content;
+            width: fit-content;
+            gap: 10px;
+            margin: 40px auto;
+        }
+
+        .gallery img {
+            height: 100%;
+            width: 300px;
+            border-radius: 10px;
+
+        }
+
+        .cont {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #cbdde9;
+            gap: 25px;
+        }
+
+        .con {
+            width: 250px;
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-items">
+                <div class="logo">Blue Berry Junior School</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Blue Berry Junior School</h1>
+            <p>“Nurturing Young Minds for a Bright Future”</p>
+
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Our School</h1>
+        <div class="about" ">
+            <div class=" box1">
+            <h3>Brief Description</h3>
+            <p>We don’t just give pupils an education and experiences that set them up for success in life. We help
+                them succeed in life by helping them discover passions and dare them to pursue them.</p>
+        </div>
+
+        <div class="box2">
+            <h3>Vision</h3>
+            <p>We seek to foster life ong learners who are agents of their learning and wellbeing; who seek a deeper
+                understanding of, and connection to, themselves, others in the school, Uganda, and global
+                communities.</p>
+        </div>
+
+        <div class="box3">
+            <h3>Mission</h3>
+            <p>We are a diverse community of learners who come together to realise our individual and collective
+                learning potential by creating a culture of belonging, opportunity, and challenge.</p>
+
+
+
+        </div>
+        </div>
+    </section>
+
+    <section id="academics">
+        <h1>Our Academics</h1>
+        <div class="class-container">
+            <div class="academics">
+                <h3>Baby class</h3>
+                <p> An early childhood educational level (often for children aged 3–4) or a specialized development
+                    session for infants </p>
+            </div>
+
+            <div class="academics">
+                <h3>Top class</h3>
+                <p>Top Class is the final year of nursery or pre-primary education before a child joins Primary One.</p>
+            </div>
+
+            <div class="academics">
+                <h3>Primary one</h3>
+                <p>Primary One (P1) is the first year of lower primary school and marks a major transition from the
+                    play-based nursery section to formal, structured education. </p>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h1>Our Gallery</h1>
+        <div class="gallery">
+            <img src="images/body-junior-foundations-of-learning.jpg" alt="">
+            <img src="images/body-junior-quotes.jpg" alt="">
+            <img src="images/aspen-junior-school-kids.jpg" alt="">
+            <img src="images/body-learning-how-to-learn-1.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="cont">
+            <div class="con">
+                <h4>Talk To Us</h4>
+                <p>Fill out your information and an Blue Berry representative will reach out to you. If you're looking for
+                    service support, visit our social media handles. Get answers to quick questions with these resources:</p>
+
+            </div>
+
+            <div class="con">
+                <form class="form">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="sandra smith">
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="sandrasmith@gmail.com">
+                    <br>
+
+                    <label for="text">Message:</label>
+                    <textarea name="" id="" rows="5" cols="30"></textarea>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <footer>
+            <div class="contacts">
+                <p>Telephone: +25678905647</p>
+                <p>Email:blueberry@company.com</p>
+
+
+                <div class="links">
+                    <img src="images/tiktok_3621450.png" alt="" width="20px" height="20px">
+                    <img src="images/instagram_174855.png" alt="" width="20px" height="20px">
+                    <img src="images/social_12942327 (1).png" alt="" width="20px" height="20">
+
+                </div>
+
+                <div class="copy">
+                    <p>@2026 All copyright reserved</p>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
